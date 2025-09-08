@@ -20,7 +20,7 @@ X = df[["Hours_Studied", "Sleep_Time", "Extra_Activity","Attendence"]]
 y = df["Marks"]
 
 # Train/test split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.6, random_state=42)
 
 # Train model
 model = LinearRegression()
